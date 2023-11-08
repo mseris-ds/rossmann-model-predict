@@ -44,8 +44,4 @@ def rossmann_predict():
 
 if __name__ == '__main__':
     port = int(os.environ.get( 'PORT', 5000 ))
-<<<<<<< HEAD:handler.py
-    app.run( '0.0.0.0', port = port )
-=======
-    app.run( '0.0.0.0', port = port )
->>>>>>> 720d83869f40ad247d36a4e3798b5da05ae8d80b:webapp/handler.py
+    app.run('0.0.0.0', port=port)
